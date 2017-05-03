@@ -37,16 +37,16 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'APPLICATION_SUBJECT'			=> 'Sollicitatie formulier %s',
-	'APPLICATION_MESSAGE'			=> 'Gebruiker [b]%1$s[/b], heeft een sollicitatie gedaan via het sollicitatie formulier met de volgende informatie.<br>' . "\n" . '[b]Echte naam[/b]: %2$s' . "\n" . '[b]Sollicitatie voor[/b]: %3$s' . "\n" . '[b]Reden voor de sollicitatie:[/b] %4$s',
+	'APPLICATION_MESSAGE'			=> 'Gebruiker [b]%1$s[/b], heeft een sollicitatie gedaan via het sollicitatie formulier met de volgende informatie.' . "\n" . '[b]Echte naam[/b]: %2$s' . "\n" . '[b]Sollicitatie voor[/b]: %3$s' . "\n" . '[b]Reden voor de sollicitatie:[/b] %4$s',
 	'APPLICATION_SEND'				=> 'Je sollicitatie is succesvol verzonden naar de beheerder. Je mag een antwoord verwachten binnen de 7 dagen.',
 	'APPLICATION_PAGETITLE'			=> 'Sollicitatie formulier',
-
 	'APPLICATION_WELCOME_MESSAGE'	=> 'Welkom op het sollicitatie formulier. We hebben posities openstaan waarvoor jij misschien geschikt bent. Gelieve het onderstaande formulier in te vullen voor de door jou gekozen positie. We wensen je veel geluk!<br><br><strong><em>Items gemarkeerd met een sterretje moeten ingevuld worden!</em></strong>',
 	'APPLICATION_REALNAME'			=> 'Echte naam',
 	'APPLICATION_EMAIL'				=> 'E-mail adres',
 	'APPLICATION_POSITION'			=> 'Welke positie zou je graag willen',
 	'APPLICATION_WHY'				=> 'Waarom zouden we jou kiezen voor deze positie?',
 	'APP_NOT_COMPLETELY_FILLED'		=> 'Je moet alle velden invullen voor deze sollicitatie.',
+	'APP_COMPLETE_NAME_WHY'			=> 'Je moet een naam opgeven en waarom we voor jou moeten kiezen.',
 	'ADD_ATTACHMENT_EXPLAIN'		=> 'Voeg een bijlage toe om onze beslissing mogelijk te vergemakkelijken voor jou sollicitatie.',
 	'ADD_ATTACHMENT_REQ'			=> '<strong>Je moet een bijlage toevoegen om in aanmerking te komen voor deze sollicitatie</strong>.',
 	'APPLICATION_REQUIRES_ATTACHMENT'	=> 'Gelieve een bijlage toe toe voegen bij de positie waarvoor je solliciteert.',
