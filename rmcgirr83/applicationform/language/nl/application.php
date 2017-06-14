@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'APPLICATION_SUBJECT'			=> 'Sollicitatie formulier %s',
-	'APPLICATION_MESSAGE'			=> 'Gebruiker [b]%1$s[/b], heeft een sollicitatie gedaan via het sollicitatie formulier met de volgende informatie.' . "\n" . '[b]Echte naam[/b]: %2$s' . "\n" . '[b]Sollicitatie voor[/b]: %3$s' . "\n" . '[b]Reden voor de sollicitatie:[/b] %4$s',
+	'APPLICATION_MESSAGE'			=> 'Gebruiker [b]%1$s[/b], heeft een sollicitatie gedaan via het sollicitatie formulier met de volgende informatie.' . "\n" . '[b]Echte naam[/b]: %2$s' . "\n" . '[b]IP:[/b] %3$s'. "\n" . '[b]Email:[/b] %4$s'. "\n" . '[b]Solliciteert voor[/b]: %5$s' . "\n" . '[b]Reden:[/b] %6$s',
 	'APPLICATION_SEND'				=> 'Je sollicitatie is succesvol verzonden naar de beheerder. Je mag een antwoord verwachten binnen de 7 dagen.',
 	'APPLICATION_PAGETITLE'			=> 'Sollicitatie formulier',
 	'APPLICATION_WELCOME_MESSAGE'	=> 'Welkom op het sollicitatie formulier. We hebben posities openstaan waarvoor jij misschien geschikt bent. Gelieve het onderstaande formulier in te vullen voor de door jou gekozen positie. We wensen je veel geluk!<br><br><strong><em>Items gemarkeerd met een sterretje moeten ingevuld worden!</em></strong>',
